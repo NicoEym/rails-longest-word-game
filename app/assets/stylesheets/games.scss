@@ -1,0 +1,96 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+  width: 850px;
+
+}
+
+.letters {
+  text-align: center;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+
+.letter {
+  border: 2px;
+  background-color: #2f89fc;
+  color: white;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  // text-align: center;
+  line-height:50px;
+  font-size: 30px;
+  box-shadow: 2px;
+  border-style: solid;
+  border-color: #40514e;
+}
+
+
+.btn {
+  width: 100px;
+  height: 44px;
+  border-radius: 2px;
+  box-shadow: 2px;
+  border-style: solid;
+  text-align: center;
+  font-size: 20px;
+  color: #900;
+  border: 1px solid #900;
+  font-weight: bold;
+  position:absolute;
+  right: 15px;
+}
+
+input[type=word] {
+  border: 1px solid #40514e;
+  border-radius: 2px;
+  width: 700px;
+  height: 40px;
+  box-shadow: 2px;
+  position:absolute;
+  left: 56px;
+}
+
+label {
+  font-size: 22px;
+}
+
+ .input {
+  position: relative;
+ }
+
+
+ .result {
+  text-align: center;
+ }
+
+
+.btn-play {
+  width: 200px;
+  height: 60px;
+  border-radius: 2px;
+  box-shadow: 2px;
+  border-style: solid;
+  text-align: center;
+  font-size: 20px;
+  color: #900;
+  border: 1px solid #900;
+  font-weight: bold;
+  text-decoration: none;
+  &:hover {
+    color: black;
+    opacity: 70%;
+  }
+
+}

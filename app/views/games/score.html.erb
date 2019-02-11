@@ -1,0 +1,12 @@
+<div class="result">
+  <%if @score[:score] == 0%>
+    <p>Sorry, <strong><%= @score[:attempt] %></strong> is not an English word.</p>
+  <%elsif @score[:score] == -1  %>
+    <p>Sorry, <strong><%= @score[:attempt] %></strong> cannot be built out of the grid <%= @score[:grid].join(", ")%>.</p>
+  <%else%>
+    <p><strong>Congratulations</strong>, <%= @score[:attempt] %> is a valid English world.</p>
+  <%end %>
+  <button class="btn-play"><%= link_to "Play again!", new_path %> </button>
+</div>
+
+
